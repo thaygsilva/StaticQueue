@@ -204,7 +204,7 @@ void PrintQueue(const StaticQueue& queue) {
 	}
 	else {
 		cout << "Data: " << timeInfo.tm_mday << "/" << (timeInfo.tm_mon + 1) << "/" << (timeInfo.tm_year + 1900) << "\n";
-		cout << "Hora : " << timeInfo.tm_hour << ":" << timeInfo.tm_min << "/" << timeInfo.tm_sec << "\n";
+		cout << "Hora : " << timeInfo.tm_hour << ":" << timeInfo.tm_min << ":" << timeInfo.tm_sec << "\n";
 	}
 	cout << "Estante: " << front.shelf << endl;
 	cout << "Prateleira: " << front.tier << endl;
